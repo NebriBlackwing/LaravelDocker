@@ -28,7 +28,10 @@ Most major linux distributions also contain a docker package in their repositori
 
 ### How do I run php artisan inside the docker container?
 
-This can be done from your command line. A quick example: `docker-compose exec app php artisan migrate`. For further details please reference: https://docs.docker.com/compose/reference/exec/ and https://docs.docker.com/engine/reference/commandline/exec/
+This can be done from your command line. A quick example: `docker-compose exec app php artisan migrate`. For further details please reference these urls: 
+
+* https://docs.docker.com/compose/reference/exec/
+* https://docs.docker.com/engine/reference/commandline/exec/
 
 ## Found a problem? Need support?
 Please file an issue in this repo's issue tracker. I'll do my best to keep this repository up to date and address any concerns or requests.
