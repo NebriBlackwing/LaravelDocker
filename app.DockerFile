@@ -40,6 +40,9 @@ RUN useradd -u 1000 -ms /bin/bash -g www www
 # Copy existing application directory contents
 COPY ./laravel /var/www
 
+# setup up laravel php config.
+RUN /bin/sh -c 'cd /var/www; php artisan key:generate; php artisan config:cache'
+
 # Copy existing application directory permissions
 COPY --chown=www:www . /var/www
 

@@ -5,8 +5,10 @@ services:
   app:
     build:
       context: .
-      dockerfile: Dockerfile_app
+      dockerfile: app.DockerFile
     image: digitalocean.com/php
+    depends_on:
+      - db
     restart: unless-stopped
     tty: true
     environment:
@@ -43,11 +45,23 @@ services:
     environment:
       MYSQL_DATABASE: laravel
       MYSQL_ROOT_PASSWORD: password
+      MYSQL_USER: laravel
+      MYSQL_PASSWORD: password
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
     volumes:
       - dbdata:/var/lib/mysql/
       - ./mysql/my.cnf:/etc/mysql/my.cnf
+    networks:
+      - app-network
+
+  adminer:
+    image: adminer
+    depends_on:
+        - db
+    restart: always
+    ports:
+      - 8080:8080
     networks:
       - app-network
 
