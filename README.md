@@ -1,5 +1,5 @@
 # Introduction
-Need a laravel development enviorment that just works with 1 command? I did too, that's why I created this GitHub repo.
+Need a laravel development environment that just works with 1 command? I did too, that's why I created this GitHub repo.
 LaravelDocker comes with 5.7 installed and working out of the box with it's default configuration. I've also included adminer,
 which I have found useful as a lightweight interface to manage the mysql instance included with this package.
 
@@ -15,7 +15,7 @@ For Windows 10 Pro - Docker Desktop
 For Windows 10 Home - https://docs.docker.com/toolbox/toolbox_install_windows/
 For Mac - https://hub.docker.com/editions/community/docker-ce-desktop-mac
 
-Most major linux distrubutions also contain a docker package in their repositories. See your distributions documentation for details.
+Most major linux distributions also contain a docker package in their repositories. See your distributions documentation for details.
 
 ## Running Instructions
 
