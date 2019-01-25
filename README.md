@@ -6,6 +6,8 @@ which I have found useful as a lightweight interface to manage the mysql instanc
 All you need to do is move your specific project's files into the laravel folder to get your own project files up and running.
 If your starting from scratch, this repository should be all you need to get started.
 
+I've released this package under the MIT license for ease of use. 
+
 ## Prerequisites
 All you need is the Docker Engine installed on your machine.
 
@@ -24,3 +26,6 @@ Most major linux distrubutions also contain a docker package in their repositori
 
 ## Found a problem? Need support?
 Please file an issue in this repo's issue tracker. I'll do my best to keep this repository up to date and address any concerns or requests.
+
+## Did you find this project useful?
+If you have benefitted from this project, all that I kindly ask is to have the repo star'd.
