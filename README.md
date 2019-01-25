@@ -24,6 +24,12 @@ Most major linux distributions also contain a docker package in their repositori
 3) browse to http://localhost
 4) adminer is available at http://localhost:8080
 
+## FAQ
+
+### How do I run php artisan inside the docker container?
+
+This can be done from your command line. A quick example: `docker-compose exec app php artisan migrate`
+
 ## Found a problem? Need support?
 Please file an issue in this repo's issue tracker. I'll do my best to keep this repository up to date and address any concerns or requests.
 
