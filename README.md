@@ -38,4 +38,4 @@ This can be done from your command line. A quick example: `docker-compose exec a
 Please file an issue in this repo's issue tracker. I'll do my best to keep this repository up to date and address any concerns or requests.
 
 ## Did you find this project useful?
-If you have benefitted from this project, all that I kindly ask is to have the repo star'd.
+If you have benefitted from this project, I'd love to hear from you. Feel free to drop me a note in ryan.fletcher@codepassion.ca. It's always good to hear feedback of any kind on the projects that I have worked on.
